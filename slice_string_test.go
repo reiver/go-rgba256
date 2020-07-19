@@ -57,7 +57,7 @@ func TestSlice_String(t *testing.T) {
 			G: 181,
 			B:  74,
 			A: 255,
-			Expected: "rgba(57,181,75,255)",
+			Expected: "rgba(57,181,74,255)",
 		},
 		{
 			R: 255,
