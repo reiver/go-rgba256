@@ -1,5 +1,6 @@
 package rgba32
 
+// RGBA makes Slice fit the Go built-in color.Color interface.
 func (receiver Slice) RGBA() (r, g, b, a uint32) {
 	if ByteSize != len(receiver)  {
 		return 0,0,0,0
