@@ -1,4 +1,4 @@
-package rgba256
+package rgba32
 
 func (receiver Slice) RGBA() (r, g, b, a uint32) {
 	if ByteSize != len(receiver)  {

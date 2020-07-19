@@ -1,7 +1,7 @@
-package rgba256_test
+package rgba32_test
 
 import (
-	"github.com/reiver/go-rgba256"
+	"github.com/reiver/go-rgba32"
 
 	"image/color"
 
@@ -11,7 +11,7 @@ import (
 func TestImageImage(t *testing.T) {
 
 	// THIS IS WHAT ACTUALLY MATTERS!
-	var x color.Color = rgba256.Slice{}
+	var x color.Color = rgba32.Slice{}
 
 	if nil == x {
 		t.Error("This should never happen")

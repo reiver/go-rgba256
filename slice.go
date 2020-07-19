@@ -1,3 +1,3 @@
-package rgba256
+package rgba32
 
 type Slice []uint8

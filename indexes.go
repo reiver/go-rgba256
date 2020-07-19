@@ -1,4 +1,4 @@
-package rgba256
+package rgba32
 
 const (
 	indexRed   = 0
